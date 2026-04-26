@@ -8,15 +8,6 @@ This repository showcases a compact machine learning project built around two cl
 
 The project was originally developed as part of an introductory machine learning assignment and then cleaned up into a portfolio-style repository that highlights practical data work, modeling fundamentals, and clear experimentation.
 
-## Why this project is worth reviewing
-
-This repo demonstrates more than just fitting a model:
-
-- **Core ML foundations**: linear regression and polynomial fitting are implemented manually with NumPy rather than delegated to scikit-learn
-- **Data preparation**: missing-value handling, invalid-record filtering, and domain-driven feature engineering are part of the workflow
-- **Experimental thinking**: the housing task includes a learning-curve analysis across varying training-set sizes
-- **Generalization analysis**: the temperature task evaluates how a model trained on Israel transfers to other countries
-- **Communication with visuals**: the repository includes plots that make the modeling choices and outcomes easy to inspect
 
 ## Project structure
 
@@ -119,15 +110,3 @@ Run the temperature workflow:
 ```bash
 python city_temperature_prediction.py
 ```
-
-## What a recruiter should take from this repo
-
-This project shows the ability to:
-
-- implement ML logic from first principles
-- move from raw data to usable features
-- evaluate models instead of only training them
-- communicate results visually and clearly
-- keep code modular across reusable components and task-specific pipelines
-
-It is especially relevant for junior data, machine learning, and backend-oriented roles where strong fundamentals and clean analytical thinking matter.
