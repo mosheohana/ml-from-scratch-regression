@@ -1,0 +1,20 @@
+.idea/
+.venv/
+Lib/
+Scripts/
+share/
+__pycache__/
+.mplcache/
+pyvenv.cfg
+*.pyc
+*.pyo
+*.pyd
+
+# Local archives and coursework packaging
+*.zip
+*.pdf
+ex1_315742692/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
